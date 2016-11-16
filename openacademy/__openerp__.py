@@ -4,13 +4,6 @@
 
     'summary': """Manage trainings""",
 
-    'description': """
-        Open Academy module for managing trainings:
-            - training courses
-            - training sessions
-            - attendees registration
-    """,
-
     'author': "Vauxoo",
     'website': "http://www.vauxoo.com",
 
