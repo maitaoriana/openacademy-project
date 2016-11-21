@@ -19,4 +19,4 @@ class Course(models.Model):
                                     index = True)
 
     session_ids = fields.One2many('openacademy.session',
-                                  'course_id', string="Sessions") 
+                                  'course_id', string="Sessions")
