@@ -6,9 +6,10 @@ class Session(models.Model):
     _name = 'openacademy.session'
 
     name = fields.Char(required = True)
-    start_date = fields.Date()
+    start_date = fields.Date(default= fields.Date.today)
     duration = fields.Float(digits=(6, 2), help="Duration in days")
     seats = fields.Integer(string="Number of seats")
+    active = fields.Boolean(default=True)
     instructor_id = fields.Many2one("res.partner",
                                     string="Instructor",
                                     domain=['|',
@@ -20,6 +21,8 @@ class Session(models.Model):
                                  ondelete="cascade",
                                  string="Course", required=True)
     attendee_ids = fields.Many2many('res.partner', string="Attendees")
+
+    active = fields.Boolean(default=True)
 
     taken_seats = fields.Float(string="Taken seats", compute='_taken_seats')
 
