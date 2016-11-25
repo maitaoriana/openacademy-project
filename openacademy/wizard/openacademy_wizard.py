@@ -6,7 +6,7 @@ from openerp import models, fields, api
 class Wizard(models.TransientModel):
     _name = 'openacademy.wizard'
     
-    def _default_session(self):
+    def _default_sessions(self):
         print(self._context)
         return self.env['openacademy.session'].browse(self._context.get('active_ids'))
 
