@@ -43,17 +43,17 @@ msgstr "Activo"
 #: model:ir.actions.act_window,name:openacademy.launch_session_wizard
 #: view:openacademy.wizard:openacademy.wizard_form_view
 msgid "Add Attendees"
-msgstr "Agregar Asistentes"
+msgstr "Agregar asistentes"
 
 #. module: openacademy
 #: model:ir.ui.menu,name:openacademy.menu_launch_session_wizard
 msgid "Add Attendendees massive"
-msgstr "Add Attendendees massive"
+msgstr "Agregar asistentes masivamente"
 
 #. module: openacademy
 #: field:res.partner,session_ids:0
 msgid "Attended Sessions"
-msgstr "Attended Sessions"
+msgstr "Sessiones asistidas"
 
 #. module: openacademy
 #: field:openacademy.session,attendee_ids:0
@@ -95,13 +95,13 @@ msgstr "Confirmado"
 #: model:ir.actions.act_window,name:openacademy.contact_cat_list_action
 #: model:ir.ui.menu,name:openacademy.contact_cat_menu
 msgid "Contact Tags"
-msgstr "Contact Tags"
+msgstr "Categoria de Contactos"
 
 #. module: openacademy
 #: model:ir.actions.act_window,name:openacademy.contact_list_action
 #: model:ir.ui.menu,name:openacademy.contact_menu
 msgid "Contacts"
-msgstr "Contacts"
+msgstr "Contactos"
 
 #. module: openacademy
 #: view:openacademy.course:openacademy.course_tree_view
@@ -112,7 +112,7 @@ msgstr "Curso"
 #. module: openacademy
 #: view:openacademy.course:openacademy.course_form_view
 msgid "Course Form"
-msgstr "Course Form"
+msgstr "Cursos de"
 
 #. module: openacademy
 #: model:ir.actions.act_window,name:openacademy.course_list_action
@@ -179,7 +179,7 @@ msgstr "Duración en horas"
 #. module: openacademy
 #: field:openacademy.session,end_date:0
 msgid "End Date"
-msgstr "End Date"
+msgstr "Fecha de culminacion"
 
 #. module: openacademy
 #: view:openacademy.session:openacademy.session_form_view
@@ -229,7 +229,7 @@ msgstr "Mark as done"
 #. module: openacademy
 #: view:openacademy.course:openacademy.course_search_view
 msgid "My Courses"
-msgstr "My Courses"
+msgstr "Mis Cursos"
 
 #. module: openacademy
 #: field:openacademy.session,name:0
@@ -255,7 +255,7 @@ msgstr "OpenAcademy / Manager"
 #. module: openacademy
 #: view:openacademy.session:openacademy.openacademy_session_graph_view
 msgid "Participations by Courses"
-msgstr "Participations by Courses"
+msgstr "Participantes por Cursos"
 
 #. module: openacademy
 #: model:ir.model,name:openacademy.model_res_partner
@@ -276,7 +276,7 @@ msgstr "Reset to draft"
 #: view:openacademy.course:openacademy.course_search_view
 #: field:openacademy.course,responsible_id:0
 msgid "Responsible"
-msgstr "Responsible"
+msgstr "Responsable"
 
 #. module: openacademy
 #: view:openacademy.session:openacademy.session_form_view
