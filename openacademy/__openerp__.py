@@ -19,10 +19,10 @@
     # always loaded
     'data': [
         'view/openacademy_course_view.xml',
+        'security/security.xml',
         'view/openacademy_session_view.xml',
         'view/partner_view.xml',
         'workflow/openacademy_session_workflow.xml',
-        'security/security.xml',
         'security/ir.model.access.csv',
         'report/openacademy_session_report.xml',
         'view/openacademy_session_board.xml'
